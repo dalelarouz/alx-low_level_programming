@@ -4,7 +4,7 @@
  /**
   * main - Entry point
   * Description: prints if the number is positive or negative
-  * Return: Always 0
+  * Return: 0
   */
 (
 srand(time(0));
@@ -18,7 +18,6 @@ else if (n == 0)
 printf("%d is zero\n", n);
 )
 else
-(
 printf("%d is negative\n", n);
 )
 return (0);
